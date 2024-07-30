@@ -1,0 +1,56 @@
+.todoListContainer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.taskList {
+  margin-top: 20px;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.taskInput {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 440px;
+  height: 54px;
+  color: #fff;
+  background-color: black;
+  margin-right: 90px;
+}
+
+.taskActions {
+  display: flex;
+}
+
+.editButton, .deleteButton {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.cancelButton, .saveButton {
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}

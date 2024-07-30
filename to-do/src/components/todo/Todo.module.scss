@@ -1,0 +1,51 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 440px;
+  height: 54px;
+  color: #fff;
+  background-color: black;
+  margin-right: 90px;
+}
+
+.addButton {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 16px;
+  //width: 210px;
+  height: 54px;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clearButton {
+  border: 1px solid #fff;
+  background: black;
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  //width: 210px;
+  height: 54px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.addButton.small, .clearButton.small {
+  width: 210px;
+  height: 54px;
+}
+
+.addButton.large, .clearButton.large {
+  width: 440px;
+  height: 54px;
+}
